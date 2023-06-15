@@ -8,6 +8,7 @@ Select FirstName,Gender,Salary,DepartmentName
 From [Employee Information]
 INNER JOIN [Department Details]
 ON [Employee Information].DepartmentId=[Department Details].ID
+--on is used to specify the criterei/condition used for joining two tables
 Order By FirstName asc;
 
 --LEFT OUTER JOIN
